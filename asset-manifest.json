@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a97b6b99.css",
-    "main.js": "/static/js/main.17369863.js",
+    "main.css": "/static/css/main.99001aad.css",
+    "main.js": "/static/js/main.06f6390f.js",
     "static/media/Super-Team.png": "/static/media/Super-Team.2e9cbc08607b44e12c3e.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -26,11 +26,11 @@
     "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.8869f2f6c8ef3b4798e6fa8649bfaac0.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.a97b6b99.css.map": "/static/css/main.a97b6b99.css.map",
-    "main.17369863.js.map": "/static/js/main.17369863.js.map"
+    "main.99001aad.css.map": "/static/css/main.99001aad.css.map",
+    "main.06f6390f.js.map": "/static/js/main.06f6390f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a97b6b99.css",
-    "static/js/main.17369863.js"
+    "static/css/main.99001aad.css",
+    "static/js/main.06f6390f.js"
   ]
 }

@@ -3,6 +3,7 @@
     "About Me": "Sobre mí",
     "Work": "Trabajo",
     "Contact": "Contacto",
+    "Contact Me": "Contáctame",
     "English": "Inglés",
     "Spanish": "Español",
     "French": "Francés",
@@ -12,5 +13,13 @@
     "Hi, my name is": "Hola, me llamo",
     "Hey! I'm Willyam and I'm a software engineer with a proficient understanding of the development and optimization of front-end features, but I am also able to tackle challenges in a full-stack capacity.": "¡Hola! Soy Willyam y soy un ingeniero de software con una comprensión competente del desarrollo y la optimización decaracterísticas de front-end, pero también soy capaz de enfrentar desafíos en una capacidad de full-stack.",
     "I pride myself on my ability to learn and the tenacity I have to solve tough problems. Although I can work autonomously, I am more than enthusiatic about collaborating with and impacting teams so as to help them achieve better results.": "Me enorgullezco de mi capacidad para aprender y de la tenacidad que tengo para resolver problemas difíciles. Aunque puedo trabajar de forma autónoma, soy más que entusiasta en colaborar e impactar equipos para ayudar ellos a lograr mejores resultados.",
-    "Moreover, I am passionate about maintaining the best practices when writing code and currently, I aim to expand and hone my skill set below.": "Además, me apasiona mantener las mejores prácticas al escribir código y, en este momento, mi objetivo es expandir y perfeccionar mi conjunto de habilidades a continuación."
+    "Moreover, I am passionate about maintaining the best practices when writing code and currently, I aim to expand and hone my skill set below.": "Además, me apasiona mantener las mejores prácticas al escribir código y, en este momento, mi objetivo es expandir y perfeccionar mi conjunto de habilidades a continuación.",
+    "Other Noteworthy Projects": "Otros Proyectos Destacados",
+    "Name": "Nombre",
+    "Message": "Mensaje",
+    "Message Sent!": "Mensaje Enviado!",
+    "Send Message": "Enviar Mensaje",
+    "Built & Designed by Willyam Ramos": "Construido y Diseñado por Willyam Ramos",
+    "Visit": "Visitar",
+    "Code": "Código"
 }
