@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a97b6b99.css",
+    "main.js": "/static/js/main.17369863.js",
+    "static/media/Super-Team.png": "/static/media/Super-Team.2e9cbc08607b44e12c3e.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/What-To-Make.png": "/static/media/What-To-Make.4d5a6b6fa5e0f4dc53c6.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/WillyamRamosResume.pdf": "/static/media/WillyamRamosResume.eceb1737b12687511e64.pdf",
+    "static/media/Goal-Setter.png": "/static/media/Goal-Setter.af5297ccb4c48f307c80.png",
+    "static/media/Where-To-Watch.png": "/static/media/Where-To-Watch.02e381a557a6828a1c61.png",
+    "static/media/nodejs.svg": "/static/media/nodejs.5a3a9ca294db0539884810b6e6eafedd.svg",
+    "static/media/postman-icon.svg": "/static/media/postman-icon.648705b5f6469f0767a4736d07313ffe.svg",
+    "static/media/express.svg": "/static/media/express.7e85c5130978e3593e65a44112bc7390.svg",
+    "static/media/sass.svg": "/static/media/sass.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/react.svg": "/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/git.svg": "/static/media/git.502148275cca62f4c99044cd1bb29f7d.svg",
+    "static/media/redux.svg": "/static/media/redux.a95675408ae17c456965e2f09376c31a.svg",
+    "static/media/html-5.svg": "/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg",
+    "static/media/typescript-icon.svg": "/static/media/typescript-icon.ff34a1b08013556934e1cc0cf67c5baa.svg",
+    "static/media/css-3.svg": "/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "static/media/javascript.svg": "/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.8869f2f6c8ef3b4798e6fa8649bfaac0.svg",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.a97b6b99.css.map": "/static/css/main.a97b6b99.css.map",
+    "main.17369863.js.map": "/static/js/main.17369863.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a97b6b99.css",
+    "static/js/main.17369863.js"
+  ]
+}
