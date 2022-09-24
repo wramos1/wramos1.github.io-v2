@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { otherProjects, Project, Projectss } from '../models/Projects'
 import '../styles/Projects.css'
 
 const Projects = () => {
+    const { t } = useTranslation();
+
     const [mobile, setMobile] = useState<boolean>(false)
 
     useEffect(() => {
@@ -39,12 +42,12 @@ const Projects = () => {
 
                     <div className="project-links">
                         <a href={liveLink} target='_blank' rel='noreferrer' className='project-link'>
-                            <span>Visit</span>
+                            <span>{t('Visit')}</span>
                             <i className="fa fa-external-link"></i>
                         </a>
 
                         <a href={codeLink} target='_blank' rel='noreferrer' className='project-link'>
-                            <span>Code</span>
+                            <span>{t('Code')}</span>
                             <i className="fa fa-code"></i>
                         </a>
                     </div>
@@ -101,12 +104,12 @@ const Projects = () => {
 
                 <div className="project-links">
                     <a href={liveLink} target='_blank' rel='noreferrer' className='project-link'>
-                        <span>Visit</span>
+                        <span>{t('Visit')}</span>
                         <i className="fa fa-external-link"></i>
                     </a>
 
                     <a href={codeLink} target='_blank' rel='noreferrer' className='project-link'>
-                        <span>Code</span>
+                        <span>{t('Code')}</span>
                         <i className="fa fa-code"></i>
                     </a>
                 </div>
@@ -151,7 +154,7 @@ const Projects = () => {
         <div id='work' className='reveal'>
 
             <h1 className='titles reveal'>
-                Work
+                {t('Work')}
             </h1>
 
             <div id="projectContainer" className='reveal'>
@@ -160,7 +163,7 @@ const Projects = () => {
 
             <div id='noteworthyProjects' className='reveal'>
                 <h1 className='titles noteworthy-title'>
-                    Other Noteworthy Projects
+                    {t('Other Noteworthy Projects')}
                 </h1>
 
                 <div id='noteworthyProjectContainer' className='reveal'>

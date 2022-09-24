@@ -83,5 +83,11 @@ export const otherProjects: Project[] = [
         technologies: 'React Typescript Redux APIs',
         liveLink: hostedLink + 'airtable-challenge',
         codeLink: githubLink + 'airtable-challenge'
+    }, {
+        title: 'Portfolio V1',
+        description: 'First iteration of my personal portfolio built with Vanilla Javascript and HTML/CSS.',
+        technologies: 'Javascript HTML CSS',
+        liveLink: hostedLink + 'wramos1.github.io-v1',
+        codeLink: githubLink + 'wramos1.github.io-v1'
     }
 ]
