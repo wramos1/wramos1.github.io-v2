@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99001aad.css",
-    "main.js": "/static/js/main.06f6390f.js",
+    "main.css": "/static/css/main.54238979.css",
+    "main.js": "/static/js/main.e6ed52d3.js",
     "static/media/Super-Team.png": "/static/media/Super-Team.2e9cbc08607b44e12c3e.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,7 +9,7 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/What-To-Make.png": "/static/media/What-To-Make.4d5a6b6fa5e0f4dc53c6.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/WillyamRamosResume.pdf": "/static/media/WillyamRamosResume.eceb1737b12687511e64.pdf",
+    "static/media/WillyamRamosResume.pdf": "/static/media/WillyamRamosResume.4861c059039ba6418bac.pdf",
     "static/media/Goal-Setter.png": "/static/media/Goal-Setter.af5297ccb4c48f307c80.png",
     "static/media/Where-To-Watch.png": "/static/media/Where-To-Watch.02e381a557a6828a1c61.png",
     "static/media/nodejs.svg": "/static/media/nodejs.5a3a9ca294db0539884810b6e6eafedd.svg",
@@ -26,11 +26,11 @@
     "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.8869f2f6c8ef3b4798e6fa8649bfaac0.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.99001aad.css.map": "/static/css/main.99001aad.css.map",
-    "main.06f6390f.js.map": "/static/js/main.06f6390f.js.map"
+    "main.54238979.css.map": "/static/css/main.54238979.css.map",
+    "main.e6ed52d3.js.map": "/static/js/main.e6ed52d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.99001aad.css",
-    "static/js/main.06f6390f.js"
+    "static/css/main.54238979.css",
+    "static/js/main.e6ed52d3.js"
   ]
 }
