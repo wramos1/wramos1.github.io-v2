@@ -1,0 +1,303 @@
+@import '~compass-mixins/lib/compass/css3';
+
+@function multiple-box-shadow ($n) {
+    $value: '#{random(10000)}px #{random(10000)}px #FFF';
+
+    @for $i from 1.5 through $n {
+        $value: '#{$value} , #{random(10000)}px #{random(10000)}px #FFF';
+    }
+
+    @return unquote($value);
+}
+
+$shadows-small: multiple-box-shadow(800);
+$shadows-medium: multiple-box-shadow(300);
+$shadows-big: multiple-box-shadow(200);
+
+$light-mode-shadow: 25px 15px 25px #1c1f22, 0px 0px 5px #04090f, 0 0 15px #050c15;
+$dark-mode-glow: 2px 2px 2px #3474bd, 0px 0px 5px #3b82d2, 0 0 15px #3b82d2;
+
+$light-nav-bars: #7ea0c5;
+$dark-nav-bars: #213e5d;
+
+$dark-background-buttons: #1b344f;
+$light-background-buttons: #8ea7c1;
+
+$dark-mode-border-highlight: #3474bd;
+$light-mode-border-highlight: #4090eb;
+
+$dark-link-hover: #102032;
+$light-link-hover: #6a7c91;
+
+$dark-mobile-nav-background: #122233;
+$light-mobile-nav-background: #4c85c3;
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 62px;
+    margin-top: 60px;
+    color: white;
+}
+
+.light-mode {
+    background: radial-gradient(ellipse at bottom, #dfdfe6 0%, #5160ad 100%);
+}
+
+.light-mode #main h2,
+.light-mode #main h1,
+.light-mode .typing,
+.light-mode .titles,
+.light-mode .project-title,
+.light-mode .note-project-link:hover,
+.light-mode .noteworthy-project:hover .short-title,
+.light-mode .icon-lang span,
+.light-mode #messageSuccess h1,
+.light-mode footer h5 {
+    text-shadow: $light-mode-shadow;
+}
+
+.light-mode #navbar,
+.light-mode #sidebar,
+.light-mode .languages {
+    background-color: $light-nav-bars;
+}
+
+.light-mode #contactButton,
+.light-mode .project-link {
+    border: 1px solid $light-mode-border-highlight;
+    background-color: $light-background-buttons;
+}
+
+.light-mode #contactForm,
+.light-mode #messageSuccess {
+    background-color: #80a7d0;
+    border: 2px solid $light-mode-border-highlight;
+}
+
+.light-mode .noteworthy-project {
+    background-color: #6096d0;
+}
+
+.light-mode .project-link:hover,
+.light-mode #contactButton:hover {
+    background-color: $light-link-hover;
+}
+
+.light-mode #contactForm input,
+.light-mode .input-label-section:nth-of-type(3) textarea {
+    border-bottom: 2px solid $light-mode-border-highlight;
+}
+
+.light-mode .project-img {
+    border: 5px solid $light-mode-border-highlight;
+}
+
+.light-mode .dropdown,
+.light-mode .language:hover,
+.light-mode .language-selected {
+    background-color: $light-mobile-nav-background;
+}
+
+.light-mode .dropdown {
+    border: 1px solid white;
+}
+
+.dark-mode {
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+}
+
+.dark-mode #main h2,
+.dark-mode #main h1,
+.dark-mode .typing,
+.dark-mode .titles,
+.dark-mode .project-title,
+.dark-mode .note-project-link:hover,
+.dark-mode .noteworthy-project:hover .short-title,
+.dark-mode .project-link,
+.dark-mode .icon-lang span,
+.dark-mode #contactButton,
+.dark-mode #messageSuccess h1,
+.dark-mode footer h5 {
+    text-shadow: $dark-mode-glow;
+}
+
+.dark-mode #navbar,
+.dark-mode #sidebar,
+.dark-mode .languages {
+    background-color: $dark-nav-bars;
+}
+
+.dark-mode #contactButton,
+.dark-mode .project-link {
+    background-color: $dark-background-buttons;
+    border: 1px solid $dark-mode-border-highlight;
+}
+
+.dark-mode #contactForm,
+.dark-mode #messageSuccess {
+    background-color: #0f243b;
+    border: 4px solid $dark-mode-border-highlight;
+}
+
+.dark-mode .noteworthy-project {
+    background-color: #152b43;
+}
+
+.dark-mode #contactForm input,
+.dark-mode .input-label-section:nth-of-type(3) textarea {
+    border-bottom: 2px solid $dark-mode-border-highlight;
+}
+
+.dark-mode #contactButton:hover,
+.dark-mode .project-link:hover {
+    background-color: $dark-link-hover;
+}
+
+.dark-mode .project-img {
+    border: 5px solid $dark-mode-border-highlight;
+}
+
+.dark-mode .dropdown,
+.dark-mode .language:hover,
+.dark-mode .language-selected {
+    background-color: $dark-mobile-nav-background;
+}
+
+.dark-mode .dropdown {
+    border: 1px solid #8898e0;
+}
+
+@media (max-width: 768px) {
+    .dark-mode .links {
+        background-color: $dark-mobile-nav-background;
+    }
+
+    .dark-mode .backdrop-image img {
+        filter: brightness(20%);
+    }
+
+    .dark-mode .short-title:hover {
+        text-shadow: $dark-mode-glow;
+    }
+
+    .dark-mode .mobile-project-version {
+        border: 3px solid $dark-mode-border-highlight;
+    }
+
+    .light-mode .links {
+        background-color: $light-mobile-nav-background;
+    }
+
+    .light-mode .short-title:hover {
+        text-shadow: $light-mode-shadow;
+    }
+
+    .light-mode .backdrop-image img {
+        filter: brightness(20%);
+        filter: blur(30%);
+    }
+
+    .light-mode .mobile-project-version {
+        border: 5px solid $light-mode-border-highlight;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+a,
+.side-link {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.05s;
+}
+
+.titles {
+    margin-top: 6.5%;
+    text-align: center;
+    font-size: 4em;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(85px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#stars {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows-small;
+    animation: animStar 50s linear infinite both;
+
+    &::after {
+        content: " ";
+        position: static;
+        top: 10000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows-small;
+    }
+}
+
+#stars2 {
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $shadows-medium;
+    animation: animStar 100s linear infinite both;
+
+    &::after {
+        content: " ";
+        position: static;
+        top: 10000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows-medium;
+    }
+}
+
+#stars3 {
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: $shadows-big;
+    animation: animStar 150s linear infinite forwards;
+
+    &::after {
+        content: " ";
+        position: static;
+        top: 10000px;
+        width: 3px;
+        height: 3px;
+        background: transparent;
+        box-shadow: $shadows-big;
+    }
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px)
+    }
+
+    to {
+        transform: translateY(-10000px)
+    }
+}
