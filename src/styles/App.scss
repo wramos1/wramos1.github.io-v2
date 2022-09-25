@@ -226,18 +226,6 @@ a,
     font-size: 4em;
 }
 
-.reveal {
-    position: relative;
-    transform: translateY(85px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
-}
-
 #stars {
     width: 1px;
     height: 1px;

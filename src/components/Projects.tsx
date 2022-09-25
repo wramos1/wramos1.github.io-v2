@@ -151,22 +151,22 @@ const Projects = () => {
     })
 
     return (
-        <div id='work' className='reveal'>
+        <div id='work' >
 
-            <h1 className='titles reveal'>
+            <h1 className='titles'>
                 {t('Work')}
             </h1>
 
-            <div id="projectContainer" className='reveal'>
+            <div id="projectContainer">
                 {mobile ? mobileAllProjects : listPrimaryProjects}
             </div>
 
-            <div id='noteworthyProjects' className='reveal'>
+            <div id='noteworthyProjects'>
                 <h1 className='titles noteworthy-title'>
                     {t('Other Noteworthy Projects')}
                 </h1>
 
-                <div id='noteworthyProjectContainer' className='reveal'>
+                <div id='noteworthyProjectContainer'>
                     {listOtherProjects}
                 </div>
 

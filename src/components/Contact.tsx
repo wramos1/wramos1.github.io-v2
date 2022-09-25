@@ -42,8 +42,8 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='reveal'>
-            <h1 className="titles reveal">
+        <div id='contact' >
+            <h1 className="titles">
                 {t('Contact Me')}
             </h1>
 

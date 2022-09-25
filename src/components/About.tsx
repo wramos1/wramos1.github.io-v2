@@ -24,13 +24,13 @@ const About = () => {
     })
 
     return (
-        <div id='aboutMe' className='reveal'>
+        <div id='aboutMe'>
 
             <h1 className='titles'>
                 {t('About Me')}
             </h1>
 
-            <div id='aboutContent' className='reveal'>
+            <div id='aboutContent'>
                 <p>
                     {t("Hey! I'm Willyam and I'm a software engineer with a proficient understanding of the development and optimization of front-end features, but I am also able to tackle challenges in a full-stack capacity.")}
                 </p>
@@ -44,7 +44,7 @@ const About = () => {
                 </p>
             </div>
 
-            <div id='iconContainer' className='reveal'>
+            <div id='iconContainer'>
                 {displayLanguageIcons}
             </div>
 
