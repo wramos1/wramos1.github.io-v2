@@ -1,5 +1,5 @@
 import SuperTeam from '../images/projects/Super-Team.png';
-import GoalSetter from '../images/projects/Goal-Setter.png';
+import WeightPlate from '../images/projects/Weight-Plate.png';
 import WhatToMake from '../images/projects/What-To-Make.png';
 import WhereToWatch from '../images/projects/Where-To-Watch.png';
 
@@ -18,6 +18,15 @@ const githubLink = 'https://github.com/wramos1/'
 
 export const Projectss: Project[] = [
     {
+        img: WeightPlate,
+        imgAlt: 'Weight Plate project',
+        title: 'Weight Plate',
+        description: "This project simulates a real restaurant chains' website and utilizes E-Commerce development tools to bring it to life such as Shopify.",
+        technologies: 'React GraphQL Shopify NextJS TailwindCss',
+        liveLink: 'https://weight-plate.vercel.app',
+        codeLink: githubLink + 'weight-plate'
+    },
+    {
         img: SuperTeam,
         imgAlt: 'Super Team Project',
         title: 'Super Team',
@@ -25,15 +34,6 @@ export const Projectss: Project[] = [
         technologies: 'Typescript React APIs HTML CSS',
         liveLink: hostedLink + 'super-team',
         codeLink: githubLink + 'super-team'
-    },
-    {
-        img: GoalSetter,
-        imgAlt: 'Goal Setter Project',
-        title: 'Goal Setter',
-        description: 'This full-stack application, built with the MERN stack, enables users to set goals onto their profile. Their profile is secured through authentication and enables them to log back into their accounts to view their created goals which were saved onto a database.',
-        technologies: 'React Node MongoDB Express REST Redux',
-        liveLink: 'https://willyammerngoalsetter.herokuapp.com/',
-        codeLink: githubLink + 'goals-app'
     },
     {
         img: WhatToMake,

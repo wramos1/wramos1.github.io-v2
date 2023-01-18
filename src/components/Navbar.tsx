@@ -4,7 +4,7 @@ import ReactCountryFlag from 'react-country-flag';
 import { useTranslation } from 'react-i18next'
 import { languages, Language } from '../models/Languages';
 
-import resume from '../WillyamRamosResume.pdf'
+import resume from '../Willyam-Ramos-Resume.pdf'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
