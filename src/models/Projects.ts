@@ -22,7 +22,7 @@ export const Projectss: Project[] = [
         imgAlt: 'Weight Plate project',
         title: 'Weight Plate',
         description: "This project simulates a real restaurant chains' website and utilizes E-Commerce development tools to bring it to life such as Shopify.",
-        technologies: 'React GraphQL Shopify NextJS TailwindCss',
+        technologies: 'React GraphQL Shopify NextJS TailwindCSS',
         liveLink: 'https://weight-plate.vercel.app',
         codeLink: githubLink + 'weight-plate'
     },
