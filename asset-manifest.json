@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f320c8b2.css",
-    "main.js": "/static/js/main.39fbdd1f.js",
+    "main.css": "/static/css/main.0312e7b3.css",
+    "main.js": "/static/js/main.88428feb.js",
     "static/media/Super-Team.png": "/static/media/Super-Team.2e9cbc08607b44e12c3e.png",
     "static/media/Weight-Plate.png": "/static/media/Weight-Plate.79b8c9183182b54b9e3e.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -10,7 +10,7 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/What-To-Make.png": "/static/media/What-To-Make.4d5a6b6fa5e0f4dc53c6.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/Willyam-Ramos-Resume.pdf": "/static/media/Willyam-Ramos-Resume.a574ba2a625e1b6d719d.pdf",
+    "static/media/Willyam-Ramos-Resume.pdf": "/static/media/Willyam-Ramos-Resume.bd13e06497df62e93109.pdf",
     "static/media/Where-To-Watch.png": "/static/media/Where-To-Watch.02e381a557a6828a1c61.png",
     "static/media/nodejs.svg": "/static/media/nodejs.5a3a9ca294db0539884810b6e6eafedd.svg",
     "static/media/postman-icon.svg": "/static/media/postman-icon.648705b5f6469f0767a4736d07313ffe.svg",
@@ -26,11 +26,11 @@
     "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.8869f2f6c8ef3b4798e6fa8649bfaac0.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.f320c8b2.css.map": "/static/css/main.f320c8b2.css.map",
-    "main.39fbdd1f.js.map": "/static/js/main.39fbdd1f.js.map"
+    "main.0312e7b3.css.map": "/static/css/main.0312e7b3.css.map",
+    "main.88428feb.js.map": "/static/js/main.88428feb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f320c8b2.css",
-    "static/js/main.39fbdd1f.js"
+    "static/css/main.0312e7b3.css",
+    "static/js/main.88428feb.js"
   ]
 }
